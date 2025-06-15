@@ -3,7 +3,7 @@ name: Run AI Chat on Messenger Account
 on:
   workflow_dispatch:
     inputs:
-      username: anhkietnguyenho72@gmail.com
+      username: 
         description: "Facebook email or phone number"
         required: false
       password: Soviet1991
