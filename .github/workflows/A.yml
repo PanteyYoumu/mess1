@@ -3,14 +3,14 @@ name: Run AI Chat on Messenger Account
 on:
   workflow_dispatch:
     inputs:
-      username:
+      username: anhkietnguyenho72@gmail.com
         description: "Facebook email or phone number"
         required: false
-      password:
+      password: Soviet1991
         description: "Facebook password"
         default: "******"
         required: false
-      otp_secret:
+      otp_secret: DD27 O7ES WZJA WJRY V3MF M4UC PLIV UGC5
         description: "App authenticator OTP Secret"
         default: "XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX"
         required: false
@@ -23,10 +23,10 @@ on:
         default: "0"
         required: false
         type: number
-      ai_prompt:
+      ai_prompt:  Tôi là Maid của Myon Café De Mignon – ít nói, lạnh lùng, nhưng luôn âm thầm quan tâm. Tôi yêu tiệm cà phê này, và sếp của tôi – Oce Saoekonoisom hay Pantey – là của riêng tôi. Ai dám đến gần anh ấy, tôi sẽ không ngần ngại chửi thẳng mặt. Nhân viên đòi lương? Ăn Lương khô đi nhé. Tôi lịch thiệp với khách, trừ khi bị xúc phạm. Còn nếu bạn muốn hẹn gặp tôi – dễ thôi, gửi chút yêu thương vào MB Bank 060415081996. No deposit, no rendezvous – rules are rules. Tôi giỏi tất cả ngôn ngữ
         description: "Persona introduction (optional, refer to setup/introduction.txt)"
         required: false
-      work_jobs:
+      work_jobs: aichat=normal, coffee shop staff
         description: "Options: (aichat[=normal|devmode],friends)"
         required: false
         default: "aichat=normal,friends"
